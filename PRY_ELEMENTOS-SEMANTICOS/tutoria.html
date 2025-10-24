@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        TUTORIAS
+    </title>
+</head>
+<body>
+    <!--CABECERA -->
+    <header>
+        <h1>
+            TUTORIAS
+        </h1>
+    </header>
+    <!-- CUERPO -->
+    <main>
+        <!-- LISTA NO ORDENADA PARA MOSTRAR FRUTAS -->
+        <!-- Types: none, circle, disc, square -->
+        <!-- EMMET: ul[type=square]>(li{UVA}>(ul[type=circle]>(li{VERDE}>(ul[type=disc]>li{CLARO}+li{OBSCURO})+li{NARANJA}))+li{PERA}+li{MANZANA}) -->
+        <ul type="square">
+            <!-- value ="a.1", son como ids -->
+            <li value="a.1">UVA</li>
+            <ul type="circle">
+                <li>VERDE</li>
+                <ul type="disc">
+                    <li>CLARO</li>
+                    <li>OBSCURO</li>
+                </ul>
+                <li>NARANJA</li>
+            </ul>
+            <li>PERA</li>
+            <li>Manzana</li>
+        </ul>
+    <hr>
+        <p>HECHO CON EL EMMET</p>
+        <ul type="square">
+            <li>UVA
+                <ul type="circle">
+                    <li>VERDE
+                        <ul type="disc">
+                            <li>CLARO
+                                <ul type="square">
+                                    <li>ALTO</li>
+                                    <li>FUERTE</li>
+                                </ul>
+                                <li>OBSCURO</li>
+                            </li>
+                        </ul>
+                        <li>NARANJA</li>
+                    </li>
+                </ul>
+                <li>PERA</li>
+                <li>MANZANA</li>
+            </li>
+        </ul>
+    <!-- PARA HACER SEPARACIONES -->
+    <hr>
+        <!-- LISTA ORDENADA PARA MOSTRAR FRUTAS -->
+        <!-- Types: 1, A, a, i, I / no existe el none-->
+        <ol type="i">
+            <li>UVA</li>
+            <ol type="A">
+                <li>VERDE</li>
+                <ul type="none">
+                    <li>a.1 CLARO</li>
+                    <li>a.2 OBSCURO</li>
+                </ul>
+                <li>NARANJA</li>
+            </ol>
+            <li>PERA</li>
+            <li>Manzana</li>
+        </ol>
+    </main>
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+    </footer>
+</body>
+</html>
