@@ -1,0 +1,72 @@
+h1{
+    color:#edcd83;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+h4{
+    font-family: monospace; 
+    font-size: x-large;
+}
+div{
+    background-color: #0650bf;
+}
+/* Elemento input text */
+.textos{
+    color: white;
+    background-color: #3d45e7;
+    border-radius: 25px;
+    font-size: large;
+    padding: 5px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(66, 112, 25);
+    background-color: rgb(254, 251, 210);
+    text-shadow:black 1px 0 10px;
+}
+/* Elemento radio */
+.cheese{
+    accent-color: #e74c3c;
+    width: 18px;
+    height: 18px;
+    border: none;
+    outline: 2px solid deeppink;
+}
+.cheese:checked{
+    outline: 3px solid rgb(39, 255, 20);
+}
+/* Elemento check */
+.visto{
+    appearance: unset;
+    accent-color: #e7873d;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+}
+.visto:checked{
+    accent-color: deeppink;
+    background-color: #e7873d;
+}
+/* Elemento text area */
+#descripcion{
+    box-shadow: black 1px 0 5px;
+    height: 45px;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+body{
+    background-color: antiquewhite;
+}
+/* Elemento select */
+.grupo1{
+    border: #e74c3c; 
+    margin: 5px;   
+    background-color: aquamarine;
+}
+.grupo2{
+    padding: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        FORMULARIO EXTERNO
+    </title>
+    <link rel="stylesheet" href="../public/css/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1>FORMULARIO EXTERNO</h1>
+        </div>
+    </header>
+    <main>
+        <h4 >
+            BIENVENIDO!! ESTE ES OTRO FORMULARIO IGUALITO ^-^!
+        </h4>
+        <label for="">
+            Ingresa los siguientes datos >
+        </label>
+        <br>
+        <hr>
+        <form action="" method="get">
+            <label for="texto">Ingresa tus nombres:</label>
+            <input 
+                type="text" 
+                class="textos"
+                id="nombres" 
+                name="nombres"
+                placeholder="Ingrese su nombre completo" 
+                required
+                value="Luciana Francheska"
+            >
+            <br>
+            <br>
+            <label for="descripcion">Ingresa un mensaje bonito:</label>
+            <br>
+            <textarea name="descripcion" required id="descripcion" rows="5" cols="50" required>Love yourself Speak yourself Be yourself</textarea>
+            <br>
+            <br>
+            <label for="animales_favoritos">Seleccione un animalito:</label>
+            <br>
+            <select name="mis_animales_favoritos[]" id="animales_favoritos" multiple required size="3">
+                <optgroup title="COMUNES" label="COMUNES" class="grupo1" >
+                    <option value="guau">PERRO</option>
+                    <option value="miau">GATO</option>
+                    <option value="guur">PALOMA</option>
+                </optgroup>
+                <optgroup title="RAROS" label="RAROS" class="grupo2">
+                    <option value="capaz" selected>MANATI</option>
+                    <option value="illit" selected>UALABI</option>
+                    <option value="katseye">SALAMANDRA</option>
+                </optgroup>                
+            </select>
+            <br>
+            <br>
+            <label for="" >Seleccione un helado:</label>
+            <label for="polito">Polito</label>
+            <input 
+                class="visto"
+                type="checkbox" 
+                name="helados[]" 
+                id="polito" 
+                value="polito"
+                checked
+            >
+            <label for="alfajor">Alfajor</label>
+            <input 
+                type="checkbox" 
+                name="helados[]" 
+                id="alfajor" 
+                value="alfajor"
+                disabled
+            >
+            <label for="cornetto">Cornetto</label>
+            <input 
+                class="visto"
+                type="checkbox" 
+                name="helados[]" 
+                id="cornetto" 
+                value="cornetto"
+                checked
+            >
+            <br>
+            <br>
+            <label for="">Seleccione su genero:</label>
+            <br>
+            <label for="hombre" >Masculino</label>
+            <input 
+                type="radio" 
+                class="cheese"
+                name="seleccionar" 
+                id="masculino"
+                value="masculino"
+
+            >
+            <br>
+            <label for="mujer" >Femenino</label>
+            <input 
+                type="radio" 
+                class="cheese"
+                name="seleccionar" 
+                id="femenino"
+                value="femenino"
+                checked
+            >
+        </form>
+    </main>
+    <footer>
+        <p>c 2025</p>
+    </footer>
+</body>
+</html>
